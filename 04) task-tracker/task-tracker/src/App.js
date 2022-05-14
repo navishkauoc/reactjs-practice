@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
+  const name = 'Navishka'
   return (
     <div className="App">
       <h1>Hello from React</h1>
+      <h2>Hello {name}</h2>
     </div>
   );
 }
